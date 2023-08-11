@@ -1,0 +1,23 @@
+﻿@model taghelpersuygulama.TagHelpers.Uyum
+@{
+    ViewData["Title"] = "Home Page";
+}
+@addTagHelper *, taghelpersuygulama
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    
+    <div>
+        <google></google> <br />
+        <sayi sayim="3"></sayi>
+    </div>
+    <form method="post">
+        <input type="text" asp-for="Cumle">
+        <button type="submit">Kontrol Et</button>\
+        
+        
+    </form>
+    
+</div>
+
+</div>
